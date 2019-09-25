@@ -1,0 +1,21 @@
+splits:
+  - numberutils:
+    path: modularise-example-numberutils
+    version:
+      mode: manual
+      major: 1
+    vsc: 
+      type: git
+      url: "git@github.com:Helcaraxan/modularise-example-numberutils"
+    include-trees:
+      - numberutils
+  - stringutils:
+    path: modularise-example-stringutils
+    version:
+      mode: manual
+      major: 1
+    vsc: 
+      type: git
+      url: "git@github.com:Helcaraxan/modularise-example-stringutils"
+    include-trees:
+      - stringutils

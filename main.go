@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Helcaraxan/modularise-example-core/numberutils"
-	"github.com/Helcaraxan/modularise-example-core/stringutils"
+	"github.com/Helcaraxan/modularise-example-core/internal/numberutils"
+	"github.com/Helcaraxan/modularise-example-core/internal/stringutils"
 )
 
 const defaultStringLength = 20
